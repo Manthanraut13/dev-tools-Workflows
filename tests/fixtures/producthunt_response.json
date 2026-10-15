@@ -1,0 +1,54 @@
+{
+  "data": {
+    "posts": {
+      "edges": [
+        {
+          "node": {
+            "id": "post_1",
+            "name": "DevTool Pro",
+            "tagline": "The ultimate developer toolkit",
+            "description": "DevTool Pro helps you code faster with AI-powered suggestions.",
+            "url": "https://producthunt.com/posts/devtool-pro",
+            "votesCount": 342,
+            "createdAt": "2024-10-01T12:00:00Z",
+            "website": "https://devtoolpro.example.com",
+            "thumbnail": {
+              "url": "https://ph-files.imgix.net/xxx.png"
+            },
+            "topics": {
+              "edges": [
+                {"node": {"name": "Developer Tools"}},
+                {"node": {"name": "Productivity"}}
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "post_2",
+            "name": "CodeMetrics",
+            "tagline": "Visualize your code quality",
+            "description": "CodeMetrics gives you insights into your codebase health.",
+            "url": "https://producthunt.com/posts/codemetrics",
+            "votesCount": 156,
+            "createdAt": "2024-09-28T10:00:00Z",
+            "website": "https://codemetrics.example.com",
+            "thumbnail": {
+              "url": "https://ph-files.imgix.net/yyy.png"
+            },
+            "topics": {
+              "edges": [
+                {"node": {"name": "Code Quality"}},
+                {"node": {"name": "Analytics"}}
+              ]
+            }
+          }
+        }
+      ],
+      "pageInfo": {
+        "hasNextPage": false,
+        "endCursor": null
+      }
+    }
+  }
+}

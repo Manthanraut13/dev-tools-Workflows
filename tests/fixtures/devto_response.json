@@ -1,0 +1,28 @@
+[
+  {
+    "id": 111111,
+    "title": "10 VS Code Extensions That Will Change Your Life",
+    "url": "https://dev.to/user/10-vscode-extensions",
+    "description": "These extensions will make you 10x more productive.",
+    "public_reactions_count": 245,
+    "comments_count": 32,
+    "published_at": "2024-10-01T12:00:00Z",
+    "tag_list": ["vscode", "productivity", "extensions"],
+    "user": {
+      "username": "coder123"
+    }
+  },
+  {
+    "id": 111112,
+    "title": "How I Automated My Entire Deployment Pipeline",
+    "url": "https://dev.to/user/automated-deployment",
+    "description": "A step-by-step guide to zero-touch deployments.",
+    "public_reactions_count": 189,
+    "comments_count": 24,
+    "published_at": "2024-09-25T10:00:00Z",
+    "tag_list": ["devops", "automation", "ci-cd"],
+    "user": {
+      "username": "devopspro"
+    }
+  }
+]

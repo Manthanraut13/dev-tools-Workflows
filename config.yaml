@@ -1,0 +1,98 @@
+# DailyDevFinds configuration
+
+# Topics to search for (used in GitHub search, HN queries, etc.)
+topics:
+  - developer tools
+  - productivity
+  - cli
+  - api
+  - open source
+  - automation
+  - testing
+  - debugging
+  - documentation
+  - monitoring
+  - security
+  - databases
+  - infrastructure
+  - ai/ml tools
+  - side projects
+
+# Tone for the LinkedIn post
+tone: "casual, helpful, like a friend sharing a find"
+
+# Email settings
+email:
+  subject_prefix: "LinkedIn Post Ready:"
+
+# Blocklist - keywords that disqualify a candidate
+blocklist:
+  - crypto
+  - blockchain
+  - web3
+  - nft
+  - token
+  - ico
+  - gambling
+  - casino
+  - betting
+  - adult
+  - porn
+  - paywall
+  - subscription required
+  - enterprise only
+
+# Source-specific settings
+sources:
+  hackernews:
+    enabled: true
+    min_score: 50
+    max_age_days: 7
+  github:
+    enabled: true
+    min_stars: 100
+    max_age_days: 30
+    search_queries:
+      - "developer tools"
+      - "productivity"
+      - "cli tool"
+      - "automation"
+  producthunt:
+    enabled: true
+    min_votes: 50
+    max_age_days: 14
+  devto:
+    enabled: true
+    min_reactions: 20
+    max_age_days: 14
+  reddit:
+    enabled: true
+    subreddits:
+      - programming
+      - productivity
+      - SideProject
+      - selfhosted
+    min_score: 100
+    max_age_days: 7
+
+# Deduplication window (days)
+dedupe_days: 90
+
+# LLM settings (Groq)
+llm:
+  model: "llama-3.3-70b-versatile"
+  max_tokens: 2000
+  temperature: 0.7
+
+# Image settings
+image:
+  min_width: 600
+  min_height: 400
+
+# Post validation
+post:
+  min_words: 90
+  max_words: 150
+  max_emojis: 3
+  min_hashtags: 3
+  max_hashtags: 5

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>r/programming - Top posts this week</title>
+  <entry>
+    <id>reddit_post_1</id>
+    <title>[245] Amazing new Rust CLI tool for code analysis</title>
+    <link href="https://reddit.com/r/programming/comments/abc123/amazing_new_rust_cli_tool/"/>
+    <summary><p>This Rust-based CLI tool analyzes your code and finds bugs automatically.</p></summary>
+    <author>
+      <name>rustacean</name>
+    </author>
+    <published>2024-10-01T12:00:00Z</published>
+  </entry>
+  <entry>
+    <id>reddit_post_2</id>
+    <title>[189] How I built a self-hosted analytics platform</title>
+    <link href="https://reddit.com/r/selfhosted/comments/def456/self_hosted_analytics/"/>
+    <summary><p>I built a privacy-focused analytics platform using ClickHouse and Grafana.</p></summary>
+    <author>
+      <name>selfhoster</name>
+    </author>
+    <published>2024-09-28T10:00:00Z</published>
+  </entry>
+</feed>

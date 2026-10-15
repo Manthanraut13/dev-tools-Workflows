@@ -1,0 +1,31 @@
+{
+  "hits": [
+    {
+      "objectID": "12345",
+      "title": "Amazing CLI Tool for Developers",
+      "url": "https://github.com/user/amazing-cli",
+      "points": 245,
+      "author": "developer123",
+      "created_at_i": 1728000000,
+      "story_text": "This is an amazing CLI tool that helps developers be more productive."
+    },
+    {
+      "objectID": "12346",
+      "title": "Show HN: My New Debugging Tool",
+      "url": "https://example.com/debug-tool",
+      "points": 150,
+      "author": "debugger",
+      "created_at_i": 1727900000,
+      "story_text": ""
+    },
+    {
+      "objectID": "12347",
+      "title": "Ask HN: What editor do you use?",
+      "url": "",
+      "points": 89,
+      "author": "asker",
+      "created_at_i": 1727800000,
+      "story_text": "Just curious"
+    }
+  ]
+}
