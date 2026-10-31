@@ -2,6 +2,7 @@ import logging
 import os
 import uuid
 from pathlib import Path
+from dotenv import load_dotenv
 from typing import Any
 
 import resend
@@ -9,6 +10,9 @@ import resend
 from dailydevfinds.config import get_config
 from dailydevfinds.models import EmailContent
 from dailydevfinds.state import add_posted
+
+# Load .env file explicitly
+load_dotenv()
 
 logger = logging.getLogger(__name__)
 

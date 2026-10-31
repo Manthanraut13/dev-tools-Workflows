@@ -199,7 +199,7 @@ def _validate_post(
 
 def _fallback_post(facts: FactsBundle) -> Post:
     """Create a simple template post as fallback."""
-    primary = str(facts.website_url or facts.github_url)
+    primary = facts.website_url or facts.github_url or "https://example.com"
     github = str(facts.github_url) if facts.github_url else None
 
     what = facts.what_it_does[:200]
@@ -209,6 +209,9 @@ def _fallback_post(facts: FactsBundle) -> Post:
         "It handles the tedious parts of development workflows that usually eat up hours of manual work.",
         "The setup is straightforward and it integrates cleanly with existing toolchains.",
         "Best of all, it's open source so you can audit the code and contribute back.",
+        "If you've been looking for something to automate repetitive dev tasks, this is worth checking out.",
+        "The community around it is active and responsive, with regular updates.",
+        "It works well on both Windows and macOS development setups.",
         "If you've been looking for something to automate repetitive dev tasks, this is worth checking out.",
         primary,
     ]

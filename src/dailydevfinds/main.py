@@ -92,7 +92,8 @@ async def _async_main(dry_run: bool = False) -> int:
         dry_run=dry_run,
     )
 
-    if not success:
+    # In dry-run mode, email "failure" is expected since we're just testing the pipeline
+    if not success and not dry_run:
         logger.error("Failed to send email")
         return 1
 
